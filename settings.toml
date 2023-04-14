@@ -1,0 +1,14 @@
+[global]
+VERSION     = "0.1.0"
+TITLE       = "Question Answering Bot"
+LOGO_TCE    = "https://www.tcerj.tc.br/cdn-storage/logos/logo-reduzida-colorida_full-para_fundo_branco.svg"
+
+[development]
+debug=true
+host ="sqlite:///db/dados.db"
+schema="main"
+
+[production]
+debug=false
+host="sqlite:///db/dados.db"
+schema="main"

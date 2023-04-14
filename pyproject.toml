@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "chatbot"
+version = "0.1.0"
+description = ""
+authors = ["Alex Barbosa Paula <alexbp@tcerj.tc.br>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+torch = "^1.12.1"
+torchvision = "^0.13.1"
+torchaudio = "^0.12.1"
+transformers = {extras = ["sentencepiece"], version = "^4.22.0"}
+datasets = "^2.4.0"
+streamlit = "^1.13.0"
+fastapi = {extras = ["all"], version = "^0.85.1"}
+dynaconf = "^3.1.11"
+SQLAlchemy = "^1.4.42"
+pymssql = "^2.2.5"
+python-multipart = "^0.0.5"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
